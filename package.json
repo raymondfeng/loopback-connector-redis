@@ -18,14 +18,12 @@
     "redis": "^0.12.1"
   },
   "devDependencies": {
+    "bluebird": "^2.9.0",
     "loopback-datasource-juggler": "^2.7.0",
     "mocha": "~1.13.0",
     "should": "~1.2.2"
   },
-  "license": {
-    "name": "Dual MIT/StrongLoop",
-    "url": "https://github.com/strongloop/loopback-connector-redis/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "directories": {
     "test": "test"
   },
