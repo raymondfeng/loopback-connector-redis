@@ -16,7 +16,8 @@
   "dependencies": {
     "async": "^0.9.0",
     "debug": "^2.2.0",
-    "ioredis": "^1.15.1"
+    "ioredis": "^1.15.1",
+    "process-nextick-args": "^1.0.7"
   },
   "devDependencies": {
     "bluebird": "^2.9.0",
