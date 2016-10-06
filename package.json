@@ -29,14 +29,14 @@
   "homepage": "https://github.com/strongloop/loopback-connector-redis#readme",
   "devDependencies": {
     "bluebird": "^2.9.0",
+    "eslint": "^2.13.1",
+    "eslint-config-loopback": "^4.0.0",
     "loopback-datasource-juggler": "^3.0.0",
     "mocha": "^2.3.4",
     "should": "~8.0.2"
   },
   "dependencies": {
     "async": "^0.9.0",
-    "eslint": "^2.13.1",
-    "eslint-config-loopback": "^4.0.0",
     "redis": "^0.12.1",
     "strong-globalize": "^2.6.2"
   }
