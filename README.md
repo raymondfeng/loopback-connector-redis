@@ -47,5 +47,12 @@ var ds = new DataSource('redis');
 2. Run `npm test`
 
 > WARNING
-> 
+>
 > Existing data in database 0 may be deleted
+
+
+### Contributing
+
+When working on this library you should use the loopback eslint config by running:
+
+    $ sudo npm -g install eslint-config-loopback
