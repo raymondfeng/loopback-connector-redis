@@ -1,11 +1,9 @@
-
 'use strict';
 
-var should = require('./init.js');
-
-var db, Model;
-
 describe('when a model does not exist', function() {
+  var should = require('./init.js');
+  var db, Model;
+
   before(function() {
     db = getSchema();
     Model = db.define('Model', {name: String});
@@ -21,19 +19,12 @@ describe('when a model does not exist', function() {
   });
 });
 
-var id = 0;
-
 describe('when a model does exist', function() {
-  before(function(done) {
-    db = getSchema();
-    Model = db.define('Model', {name: String});
+  var should = require('./init.js');
+  var db, Model;
+  var id = 0;
 
-    Model.create({name: 'horse'}, function(err, m) {
-      should.not.exist(err);
-      id = m.id;
-      done();
-    });
-  });
+  before(createNewModel);
 
   it('should not return an error', function(done) {
     Model.all({where: {id: id}}, function(err, objs) {
@@ -42,4 +33,15 @@ describe('when a model does exist', function() {
       done();
     });
   });
+
+  function createNewModel(done) {
+    db = getSchema();
+    Model = db.define('Model', {name: String});
+
+    Model.create({name: 'horse'}, function(err, m) {
+      should.not.exist(err);
+      id = m.id;
+      done();
+    });
+  }
 });
