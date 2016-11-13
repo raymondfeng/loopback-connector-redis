@@ -1,3 +1,53 @@
+2016-10-17, Version 0.1.0
+=========================
+
+ * Update package.json (#33) (Simon Ho)
+
+ * Update translation files - round#2 (#31) (Candy)
+
+ * Upgrade to LB 3.x (jannyHou)
+
+ * Add translated files (gunjpan)
+
+ * Fix linting errors (Simon Ho)
+
+ * Configure ESLint (Simon Ho)
+
+ * refactor (jannyHou)
+
+ * Apply feedback (jannyHou)
+
+ * Globalize redis (jannyHou)
+
+ * update license text (Ryan Graham)
+
+ * Skip failing tests (Simon Ho)
+
+ * Upgrade should to 8.0.2 (Simon Ho)
+
+ * Use NPM run scripts instead of Make (Simon Ho)
+
+ * Update README.md (Simon Ho)
+
+ * Refactor package.json (Simon Ho)
+
+ * Refer to licenses with a link (Sam Roberts)
+
+ * Use strongloop conventions for licensing (Sam Roberts)
+
+ * deps: add bluebird, used by juggling test helpers (Ryan Graham)
+
+ * Add NOTICE (Raymond Feng)
+
+ * Update README.md (Rand McKinney)
+
+ * Allow null in indexes (Krishna Raman)
+
+ * Add keywords to package.json (Rand McKinney)
+
+ * Fix bad CLA URL in CONTRIBUTING.md (Ryan Graham)
+
+
 2014-12-17, Version 0.0.3
 =========================
 
