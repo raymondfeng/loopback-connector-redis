@@ -39,5 +39,6 @@ var ds = new DataSource('redis');
 2. Run `npm test`
 
 > WARNING
-> 
+>
 > Existing data in database 0 may be deleted
+ 
