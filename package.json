@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha",
+    "test": "mocha --exit",
     "posttest": "npm run lint"
   },
   "repository": {
@@ -31,16 +31,16 @@
   },
   "homepage": "https://github.com/strongloop/loopback-connector-redis#readme",
   "devDependencies": {
-    "bluebird": "^2.9.0",
+    "bluebird": "^3.5.1",
     "eslint": "^2.13.1",
     "eslint-config-loopback": "^4.0.0",
     "loopback-datasource-juggler": "^3.0.0",
-    "mocha": "^2.3.4",
+    "mocha": "^5.2.0",
     "should": "~8.0.2"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "redis": "^0.12.1",
-    "strong-globalize": "^2.6.2"
+    "async": "^2.6.1",
+    "redis": "^2.8.0",
+    "strong-globalize": "^4.1.1"
   }
 }
