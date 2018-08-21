@@ -1,3 +1,29 @@
+2018-08-21, Version 3.0.0
+=========================
+
+ * upgrade dependencies (Raymond Feng)
+
+ * Settings bug fix when passing an host without a port (Antonio Trapani)
+
+ * Fix for error-logging if error is not a string (makowski)
+
+ * Fix for destroyAll (GARETH CLYNE)
+
+ * Update paid support URL (Siddhi Pai)
+
+ * Start 3.x + drop support for Node v0.10/v0.12 (siddhipai)
+
+ * Drop support for Node v0.10 and v0.12 (Siddhi Pai)
+
+ * Start the development of the next major version (Siddhi Pai)
+
+ * fixes #44: stop destroyAll returning errors (Robert McLeod)
+
+ * refs #41: stop upsert existing model returns string on non-string fields (Robert McLeod)
+
+ * Update README.md (Rand McKinney)
+
+
 2016-10-17, Version 0.1.0
 =========================
 
