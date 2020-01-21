@@ -1,7 +1,7 @@
 ![StrongLoop Labs](http://loopback.io/images/9830552.png "StrongLoop Labs")
 
 This project provides early access to advanced or experimental functionality. 
-It may lack usability, completeness, documentation, and robustness, and may be outdated.
+It may lack usability, completeness, documentation, and robustness, and may be outdated. 
 
 However, StrongLoop supports this project. Community users, please report bugs on GitHub.
 
